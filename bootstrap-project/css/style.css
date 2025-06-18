@@ -1,0 +1,136 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --gradient: linear-gradient(135deg, #60dfff, #2699FB);
+
+}
+
+
+.wabtn {
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    font-size: 16px;
+    color: #27AE60;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.wabtn i {
+    color: #27AE60;
+    padding-right: 10px;
+    cursor: pointer;
+
+
+
+
+
+}
+
+.wabtn:hover {
+    border: 1px solid #27AE60;
+    cursor: pointer;
+
+}
+
+.call {
+    background: var(--gradient);
+    padding: 10px 18px;
+    color: white;
+}
+
+.call i {
+    padding-right: 10px;
+}
+
+.bannerContent h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannerContent p {
+    font-size: 22px;
+}
+
+.bannerContent ul {
+    list-style: none;
+}
+
+.bannerContent ul li {
+    font-size: 22px;
+
+}
+
+.bannerContent ul li i {
+    color: #2699FB;
+
+}
+
+
+.gradient {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.line-bg {
+    background: url(../images/Vector.png) no-repeat bottom;
+}
+
+.bannerContentBtn {}
+
+
+.bannerContentBtn button:first-child {
+
+    background: var(--gradient);
+    padding: 10px 18px;
+    color: white;
+    width: 50%;
+
+}
+
+.bannerContentBtn button:nth-child(2) {
+
+    border: 1px solid grey;
+    padding: 10px 18px;
+    width: 50%;
+
+
+
+}
+
+
+
+
+
+
+
+/* --------------------------- */
+
+
+
+
+.BannerForm{
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.BannerForm h3{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.BannerForm button{
+    background: var(--gradient);
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+
+}
