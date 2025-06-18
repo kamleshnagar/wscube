@@ -177,3 +177,31 @@
     border-radius: 10px;
 
 }
+.content-box h5{
+    font-size: 18px;
+    font-weight:600;
+}
+
+.content-box p {
+    font-size: 15px;
+}
+
+.section-3 h1{
+    font-size: 44px;
+    font-weight: 700;
+
+}
+.section-3 h1{
+    font-size: 44px;
+    font-weight: 700;
+
+}
+.section-3 > p{
+    font-size: 18px;
+
+}
+
+.input-group{
+    z-index: -1;
+}
+    
