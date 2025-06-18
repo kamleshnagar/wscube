@@ -20,6 +20,8 @@
         justify-content: center !important;
         padding: 5%;
         /* max-width:768px; */
+        z-index: 1000;
+
     }
 
     .btn-outer button {
@@ -36,7 +38,7 @@
 
 
     }
-    
+
 
     .bannerContent h1 {
         font-size: 31px;
@@ -72,12 +74,23 @@
     .bannerContentBtn button:nth-child(2) {
         width: 100%;
     }
-    .bannerContentBtn ul li{
+
+    .bannerContentBtn ul li {
         text-align: start;
     }
-.highlightSection h2{
-    font-size: 28px;
-}
 
+    .highlightSection h2 {
+        font-size: 28px;
+    }
+    .certificate {
+        width: 100%;
+        display: none;
+    }
+    .get-certified{
+        width: 100vw;
+    }
+    .certifySection{
+        width: 100%;
+    }
 
 }

@@ -1,6 +1,8 @@
 * {
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -115,18 +117,19 @@
 
 
 
-.BannerForm{
+.BannerForm {
     padding: 40px;
     border-radius: 10px;
-    
+
 }
-.BannerForm h3{
+
+.BannerForm h3 {
     font-size: 18px;
     font-weight: 700;
 
 }
 
-.BannerForm button{
+.BannerForm button {
     background: var(--gradient);
     width: 100%;
     padding: 10px 0px;
@@ -138,70 +141,143 @@
 /* ------------------ */
 
 
-.copunterSection h2{
+.copunterSection h2 {
     font-size: 30px;
     font-weight: 700;
     color: #2699FB;
 }
 
 
-.highlightSection{
+.highlightSection {
     background-color: #f7faff;
 }
-.highlightSection h2{
-    color:  #0a2134;
+
+.highlightSection h2 {
+    color: #0a2134;
     font-size: 36px;
     font-weight: 700;
 }
 
-.highlightSection p{
+.highlightSection p {
     font-size: 18px;
-     
+
 }
 
-.highlightItems h4{
+.highlightItems h4 {
     font-size: 20px;
     font-weight: 600;
 }
-.highlightItems p{
+
+.highlightItems p {
     font-size: 15px;
 }
 
-.btn-1{
-   
+.btn-1 {
+
     background: var(--gradient);
     width: 300px;
     padding: 10px 0;
     border: none;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
-.content-box h5{
+
+.content-box h5 {
     font-size: 18px;
-    font-weight:600;
+    font-weight: 600;
 }
 
 .content-box p {
     font-size: 15px;
 }
 
-.section-3 h1{
+.section-3 h1 {
     font-size: 44px;
     font-weight: 700;
 
 }
-.section-3 h1{
+
+.section-3 h1 {
     font-size: 44px;
     font-weight: 700;
 
 }
-.section-3 > p{
+
+.section-3>p {
     font-size: 18px;
 
 }
 
-.input-group{
+.input-group {
     z-index: -1;
 }
-    
+
+
+.certifySection {
+    background-color: #f7faff;
+}
+
+.certified-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.certified-content p {
+    font-size: 18px;
+
+}
+
+
+
+.certificate img:nth-child(2) {
+    position: absolute;
+    top: -15px;
+    left:0px;
+    z-index: 0;
+}
+
+.circle {
+    height: 228px;
+    width: 228px;
+    background-color:#E9F5FF;
+    border-radius: 500px;
+    position: absolute;
+   top: 420px;
+    right:40px;
+
+}
+
+.get-certified img {
+    background-color: #E9F5FF;
+    padding: 32px;
+
+}
+
+.certified-content-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.certified-content-box p {
+    font-size: 16px;
+
+}
+
+.btn-2 {
+    width: 250px;
+    background: var(--gradient);
+
+    padding: 10px 0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+header{
+    position: sticky;
+    z-index: 1000;
+}
