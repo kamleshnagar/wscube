@@ -1,0 +1,283 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gradient: linear-gradient(135deg, #60dfff, #2699FB);
+
+}
+
+
+.wabtn {
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    font-size: 16px;
+    color: #27AE60;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.wabtn i {
+    color: #27AE60;
+    padding-right: 10px;
+    cursor: pointer;
+
+
+
+
+
+}
+
+.wabtn:hover {
+    border: 1px solid #27AE60;
+    cursor: pointer;
+
+}
+
+.call {
+    background: var(--gradient);
+    padding: 10px 18px;
+    color: white;
+}
+
+.call i {
+    padding-right: 10px;
+}
+
+.bannerContent h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannerContent p {
+    font-size: 22px;
+}
+
+.bannerContent ul {
+    list-style: none;
+}
+
+.bannerContent ul li {
+    font-size: 22px;
+
+}
+
+.bannerContent ul li i {
+    color: #2699FB;
+
+}
+
+
+.gradient {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.line-bg {
+    background: url(../images/Vector.png) no-repeat bottom;
+}
+
+.bannerContentBtn {}
+
+
+.bannerContentBtn button:first-child {
+
+    background: var(--gradient);
+    padding: 10px 18px;
+    color: white;
+    width: 50%;
+
+}
+
+.bannerContentBtn button:nth-child(2) {
+
+    border: 1px solid grey;
+    padding: 10px 18px;
+    width: 50%;
+
+
+
+}
+
+
+
+
+
+
+
+/* --------------------------- */
+
+
+
+
+.BannerForm {
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.BannerForm h3 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.BannerForm button {
+    background: var(--gradient);
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+
+}
+
+/* ------------------ */
+
+
+.copunterSection h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+
+.highlightSection {
+    background-color: #f7faff;
+}
+
+.highlightSection h2 {
+    color: #0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.highlightSection p {
+    font-size: 18px;
+
+}
+
+.highlightItems h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.highlightItems p {
+    font-size: 15px;
+}
+
+.btn-1 {
+
+    background: var(--gradient);
+    width: 300px;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.content-box h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-box p {
+    font-size: 15px;
+}
+
+.section-3 h1 {
+    font-size: 44px;
+    font-weight: 700;
+
+}
+
+.section-3 h1 {
+    font-size: 44px;
+    font-weight: 700;
+
+}
+
+.section-3>p {
+    font-size: 18px;
+
+}
+
+.input-group {
+    z-index: -1;
+}
+
+
+.certifySection {
+    background-color: #f7faff;
+}
+
+.certified-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.certified-content p {
+    font-size: 18px;
+
+}
+
+
+
+.certificate img:nth-child(2) {
+    position: absolute;
+    top: -15px;
+    left:0px;
+    z-index: 0;
+}
+
+.circle {
+    height: 228px;
+    width: 228px;
+    background-color:#E9F5FF;
+    border-radius: 500px;
+    position: absolute;
+   top: 420px;
+    right:40px;
+
+}
+
+.get-certified img {
+    background-color: #E9F5FF;
+    padding: 32px;
+
+}
+
+.certified-content-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.certified-content-box p {
+    font-size: 16px;
+
+}
+
+.btn-2 {
+    width: 250px;
+    background: var(--gradient);
+
+    padding: 10px 0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+header{
+    position: sticky;
+    z-index: 1000;
+}
