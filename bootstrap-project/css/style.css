@@ -134,3 +134,46 @@
     color: white;
 
 }
+
+/* ------------------ */
+
+
+.copunterSection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+
+.highlightSection{
+    background-color: #f7faff;
+}
+.highlightSection h2{
+    color:  #0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.highlightSection p{
+    font-size: 18px;
+     
+}
+
+.highlightItems h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.highlightItems p{
+    font-size: 15px;
+}
+
+.btn-1{
+   
+    background: var(--gradient);
+    width: 300px;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
