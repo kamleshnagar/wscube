@@ -51,12 +51,7 @@
 
     }
 
-    .row {
-        /* text-align: center; */
-
-
-    }
-
+ 
     .row figure {
         width: 100%;
         display: flex;
@@ -92,5 +87,27 @@
     .certifySection{
         width: 100%;
     }
+    .circle {
+   
+    
+    top:180px;
+    left:130px;
+    }
+
+    .section-3 h1 {
+    
+    font-size: 30px;
+    font-weight: 700;
+    }
+
+    .head-text{
+        font-size: 30px;
+        font-weight: 700;
+      
+    
+
+    }
+   
+  
 
 }

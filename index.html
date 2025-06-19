@@ -14,19 +14,22 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
+
+
 </head>
 
 <body>
     <!---------------------------------------------- Enquiry Modal ------------------------------------>
+
     <div class="modal fade" id="enModal" tabindex="-1" aria-labelledby="enModalLabel" aria-hidden="true">
-        <div class="modal-dialog-scrollable">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="enModalLabel">Enquire Now</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="" class="BannerForm p-3">
+                    <form action="index.html" class="BannerForm p-3">
                         <h3>Book your class now!</h3>
                         <p>2 days of free demo classes without
                             paying in advance!</p>
@@ -41,7 +44,7 @@
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Mobile Number</label>
-                            <div class="input-group mb-3">
+                            <div class="input-group  mb-3">
                                 <span class="input-group-text" id="basic-addon1">+91</span>
                                 <input type="number" class="form-control" placeholder="Mobile No">
                             </div>
@@ -50,10 +53,6 @@
                             <button class="btn-1 mt-3">Register Now</button>
                         </div>
 
-
-
-
-
                     </form>
 
                 </div>
@@ -61,16 +60,15 @@
         </div>
     </div>
     <!---------------------------------------------- Book demo Modal ------------------------------------>
-
     <div class="modal fade" id="bookDemo" tabindex="-1" aria-labelledby="bookDemoLabel" aria-hidden="true">
-        <div class="modal-dialog-scrollable">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="bookDemoLabel">Enquire Now</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="" class="BannerForm p-3">
+                    <form action="index.html" class="BannerForm p-3">
                         <h3>Book your class now!</h3>
                         <p>2 days of free demo classes without
                             paying in advance!</p>
@@ -102,9 +100,8 @@
         </div>
     </div>
     <!---------------------------------------------- Book Free Class Modal ------------------------------------>
-
     <div class="modal fade" id="freeClassModal" tabindex="-1" aria-labelledby="freeClassModalLabel" aria-hidden="true">
-        <div class="modal-dialog-scrollable">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="freClassModalLabel">Book Free Class Now</h1>
@@ -145,11 +142,7 @@
             </div>
         </div>
     </div>
-
     <!---------------------------------------------- index Page ------------------------------------>
-
-
-
     <!-- <header class="container-fluid py-2 shadow-lg position-sticky bg-white top-0 ">
         <div class="container">
             <div class="row">
@@ -167,9 +160,6 @@
             </div>
         </div>
     </header> -->
-
-
-
     <header class="container-fluid py-2 shadow-lg  bg-white top-0 ">
         <div class="container">
             <div class="row">
@@ -227,9 +217,9 @@
                             <li class="mb-3"><i class="fa-solid fa-circle-check"></i> 50 seats only</li>
                         </ul>
                         <div class="bannerContentBtn d-flex gap-3">
-                            <button data-bs-toggle="modal" data-bs-target="#bookDemo" class="bookDemo btn">Book 2 Days
+                            <button data-bs-toggle="modal" data-bs-target="#bookDemo" class="bookDemo btn-1">Book 2 Days
                                 Demo</button>
-                            <button data-bs-toggle="modal" data-bs-target="#enModal" class="btn"><i
+                            <button data-bs-toggle="modal" data-bs-target="#enModal" class="btn-5"><i
                                     class="fa-solid fa-download"></i> Download Curriculum</button>
                         </div>
                     </div>
@@ -304,7 +294,7 @@
 
     </section>
 
-    <section class="highlightSection container-fluid py-5">
+    <section class="highlightSection container-fluid bg-light py-5">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
@@ -380,9 +370,10 @@
     </section>
 
     <section class="container-fluid py-5">
-        <div class="section-3 container">
-            <h1 class="text-center">Top career options in <br> Digital Marketing</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+        <div class="container ">
+            <h1 class="text-start text-md-center">Top career options in <br> Digital Marketing</h1>
+            <p class="text-start text-md-center">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare
+                pharetra.</p>
             <div class="row gx-4 gy-4">
                 <div class="content-box  col-lg-3 col-sm-6 ">
                     <div class="bg-white shadow-lg  p-3">
@@ -424,9 +415,9 @@
         </div>
     </section>
 
-    <section class="certifySection container-fluid py-5 bg-light">
-        <div class="container d-flex justify-content-center">
-            <div class="row d-flex flex-wrap ">
+    <section class="certifySection container-fluid bg-light py-5  position-relative">
+        <div class="container d-flex justify-content-center ">
+            <div class="row d-flex flex-wrap justify-content-center">
                 <div class="get-certified col-lg-6 col-12 gy-3">
                     <div class="certified-content container">
                         <h3>Get Certified</h3>
@@ -460,15 +451,16 @@
                                 vestibulum at orci.</p>
                         </div>
                     </div>
-                    <div class="">
-                        <button class="btn-2 mb-5">Book Free Class Now</button>
+                    <div class="container d-flex justify-content-center justify-content-lg-start">
+                        <button class="btn-2 mb-5 ">Book Free Class Now</button>
                     </div>
                 </div>
                 <div class=" container col-lg-6 col-12 p-4 py-5 ">
-                    <div class="certificate container position-relative d-flex flex-wrap  ">
-                        <div class="circle"></div>
-                        <img src="images/dort-square.png" alt="">
-                        <img src="images/certificate.png" alt="" class="position-absolute">
+                    <div
+                        class="certificate container position-relative d-flex flex-wrap justify-content-center img-fluid px-5 ">
+                        <div class="circle "></div>
+                        <img src="images/dort-square.png" alt="" class="img-fluid">
+                        <img src="images/certificate.png" alt="" class="position-relative img-fluid">
                     </div>
                 </div>
 
@@ -478,8 +470,336 @@
             </div>
 
     </section>
+    <section class="container-fluid py-5 ">
+        <div class="container Curriculum">
+            <div class="curriculum-text">
+                <h1 class="head-text text-lg-center">Curriculum of<br>Our Digital Marketing</h1>
+                <p class="p-text text-lg-center">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare
+                    pharetra.</p>
+            </div>
+            <div class="curriculum-body">
+                <div class="container">
+                    <div class="scrolling-tabs-wrapper w-100 ">
+                        <ul class="nav scrolling-tabs justify-content-lg-center" id="tabList" role="tablist">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#introduction"
+                                    type="button">Introduction</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#caseStudies"
+                                    type="button">Case
+                                    Studies</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#googleAdSense"
+                                    type="button">Google AdSense</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#seo" type="button">SEO
+                                    Mastery</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#anylistics"
+                                    type="button">Google Analytics</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#blog"
+                                    type="button">Blog</button>
+                            </li>
+                        </ul>
 
 
+                        <div class="tab-content pt-3">
+
+                            <div class="tab-pane fade show active" id="introduction">
+                                <div class="row p-4">
+                                    <div class="col-6">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> What is Digital Marketing?</li>
+                                            <li><img src="images/check.png" alt=""> Requirement of Digital Marketing
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Digital Marketing for Working
+                                                Professionals</li>
+                                            <li><img src="images/check.png" alt=""> Job Opportunities in Digital
+                                                Marketing</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Scope of Digital Marketing</li>
+                                            <li><img src="images/check.png" alt=""> Latest Trends in Digital Marketing
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Digital Marketing for Small, Medium,
+                                                and Large Businesses</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="caseStudies">
+                                <div class="row p-4">
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Real Case Study: Amazon’s Growth
+                                                Through SEO</li>
+                                            <li><img src="images/check.png" alt=""> How Nike Used Influencer Marketing
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Flipkart’s PPC Strategy and ROI</li>
+                                            <li><img src="images/check.png" alt=""> Local Business Growth via Google My
+                                                Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> How Zomato Leveraged Social Media
+                                                Ads</li>
+                                            <li><img src="images/check.png" alt=""> Paytm’s User Retention through Email
+                                                Marketing</li>
+                                            <li><img src="images/check.png" alt=""> Cadbury’s Creative YouTube Campaign
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Small Startup’s Viral Success
+                                                through Reels</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="googleAdSense">
+                                <div class="row p-4">
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> What is Google AdSense?</li>
+                                            <li><img src="images/check.png" alt=""> Setting up a Google AdSense Account
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Ad Placement Strategy for Maximum
+                                                Revenue</li>
+                                            <li><img src="images/check.png" alt=""> Understanding Click-Through Rate
+                                                (CTR)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Best Practices to Avoid AdSense Ban
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> How to Optimize Ads for Mobile</li>
+                                            <li><img src="images/check.png" alt=""> Monitoring Performance with AdSense
+                                                Reports</li>
+                                            <li><img src="images/check.png" alt=""> Tips for Increasing AdSense Revenue
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="seo">
+                                <div class="row p-4">
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Basics of Search Engine Optimization
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> On-Page SEO Techniques</li>
+                                            <li><img src="images/check.png" alt=""> Off-Page SEO Strategies</li>
+                                            <li><img src="images/check.png" alt=""> Keyword Research Tools and Methods
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Link Building and Backlink
+                                                Strategies</li>
+                                            <li><img src="images/check.png" alt=""> Technical SEO Essentials</li>
+                                            <li><img src="images/check.png" alt=""> Measuring SEO Performance with
+                                                Google Search Console</li>
+                                            <li><img src="images/check.png" alt=""> Staying Updated with Google
+                                                Algorithm Changes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="anylistics">
+                                <div class="row p-4">
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Introduction to Google Analytics
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Setting up GA for Your Website</li>
+                                            <li><img src="images/check.png" alt=""> Understanding Traffic Sources</li>
+                                            <li><img src="images/check.png" alt=""> Bounce Rate and Session Duration
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Creating Custom Reports in GA</li>
+                                            <li><img src="images/check.png" alt=""> Tracking Conversions & Goals</li>
+
+                                            <li><img src="images/check.png" alt=""> Using GA4: What's New?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="blog">
+                                <div class="row p-4">
+                                    <div class="col-lg-6 col-xs-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Writing SEO-Friendly Blog Posts</li>
+                                            <li><img src="images/check.png" alt=""> How to Structure Blog Content</li>
+                                            <li><img src="images/check.png" alt=""> Tools for Blog Topic Research</li>
+                                            <li><img src="images/check.png" alt=""> Promoting Blogs Through Email</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-xs-12">
+                                        <ul>
+                                            <li><img src="images/check.png" alt=""> Scheduling & Publishing Strategy
+                                            </li>
+                                            <li><img src="images/check.png" alt=""> Guest Posting and Link Building</li>
+                                            <li><img src="images/check.png" alt=""> Measuring Blog Performance</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn-2">Download Curriculum</button>
+        </div>
+    </section>
+    <section class="bg-light py-5">
+        <div class="container ">
+            <div>
+                <h1 class="head-text">Why Learn Digital Marketing</h1>
+                <p class="p-text">Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo
+                    vestibulum at orci.</p>
+            </div>
+            <div class="row p-4  gx-4 gy-4">
+                <div class="col-lg-4  col-sm-6 col-12">
+                    <div class=" bg-white p-3">
+                        <img src="images/dm-1.png" alt="">
+                        <h3>Learn From Industry Experts</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor
+                            facilisis dignissim felis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-6 col-12">
+                    <div class=" bg-white p-3">
+                        <img src="images/dm-2.png" alt="">
+                        <h3>Structured & Latest Curriculum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor
+                            facilisis dignissim felis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-6 col-12">
+                    <div class=" bg-white p-3">
+                        <img src="images/dm-3.png" alt="">
+                        <h3>Highly-Engaging Live Classes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor
+                            facilisis dignissim felis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-6 col-12">
+                    <div class=" bg-white p-3">
+                        <img src="images/dm-4.png" alt="">
+                        <h3>Work on Real Projects</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor
+                            facilisis dignissim felis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-6 col-12">
+                    <div class=" bg-white p-3">
+                        <img src="images/dm-5.png" alt="">
+                        <h3>100% Job Assistance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor
+                            facilisis dignissim felis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-6 col-12">
+                    <div class=" bg-white p-3">
+                        <img src="images/dm-6.png" alt="">
+                        <h3>Get Certification</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae suspendisse pellentesque amet porttitor
+                            facilisis dignissim felis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn-2">Book Free Class</button>
+            </div>
+
+    </section>
+
+    <section class="container-fluid py-5">
+        <div class="container">
+
+            <div>
+                <h1 class="head-text text-lg-center text-start">What Our Students <br> Are Saying!</h1>
+                <p class="p-text text-lg-center text-start">Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut
+                    ornare pharetra.</p>
+            </div>
+            <div class="row ">
+
+                <div class="col-lg-6 col-12 mb-4">
+                    <div class="custom-shadow">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="images/profile-1.png" alt="" class="rounded-circle" width="60" height="60">
+                            <div>
+                                <h5 class="mb-0">Matt Cannon</h5>
+                                <small class="text-muted">September 1, 2023</small>
+                            </div>
+                        </div>
+                        <p class="mb-0 text-muted">
+                            Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id turpis donec et morbi. Sit eu
+                            nisl non scelerisque vestibulum pulvinar. Condimentum massa bibendum pretium tincidunt sed
+                            vel.
+                        </p>
+                    </div>
+                </div>
+           
+
+            <div class="col-lg-6 col-12 mb-4">
+                <div class="custom-shadow">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <img src="images/profile-2.png" alt="" class="rounded-circle" width="60" height="60">
+                        <div>
+                            <h5 class="mb-0">Matt Cannon</h5>
+                            <small class="text-muted">September 1, 2023</small>
+                        </div>
+                    </div>
+                    <p class="mb-0 text-muted">
+                        Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id turpis donec et morbi. Sit eu
+                        nisl non scelerisque vestibulum pulvinar. Condimentum massa bibendum pretium tincidunt sed vel.
+                    </p>
+                </div>
+            </div>
+             </div>
+
+        </div>
+        
+    </section>
+
+    <section class="container-fluid py-5">
+        <div class="container">
+            
+        </div>
+
+    </section>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
