@@ -51,7 +51,7 @@
 
     }
 
- 
+
     .row figure {
         width: 100%;
         display: flex;
@@ -68,6 +68,7 @@
     .bannerContentBtn button:first-child,
     .bannerContentBtn button:nth-child(2) {
         width: 100%;
+        min-height: 60px;
     }
 
     .bannerContentBtn ul li {
@@ -77,37 +78,39 @@
     .highlightSection h2 {
         font-size: 28px;
     }
+
     .certificate {
         width: 100%;
         display: none;
     }
-    .get-certified{
+
+    .get-certified {
         width: 100vw;
     }
-    .certifySection{
+
+    .certifySection {
         width: 100%;
     }
+
     .circle {
-   
-    
-    top:180px;
-    left:130px;
+
+
+        top: 180px;
+        left: 130px;
     }
 
     .section-3 h1 {
-    
-    font-size: 30px;
-    font-weight: 700;
-    }
 
-    .head-text{
         font-size: 30px;
         font-weight: 700;
-      
-    
+    }
+
+    .head-text {
+        font-size: 30px;
+        font-weight: 700;
+
+
 
     }
-   
-  
 
 }

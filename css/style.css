@@ -144,6 +144,11 @@
 
 }
 
+.highlightItems{
+   
+    min-height:170px;
+}
+
 .highlightItems h4 {
     font-size: 20px;
     font-weight: 600;
@@ -378,6 +383,7 @@ header {
     border: 0.5px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 50%;
+    /* min-height: 60px; */
 }
 
 .circle-2 {
@@ -400,6 +406,7 @@ header {
 .rounded-1 {
     border-radius: 50px;
 }
+
 .custom-shadow {
     background-color: #fff;
     border-radius: 12px;
