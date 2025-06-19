@@ -439,3 +439,20 @@ header {
 .whylearn br{
     display: none;
 }
+footer .container{
+    max-width: 650px;
+    
+
+}
+footer .container p{
+    font-size: 16px;
+
+}
+.container-fluid{
+    max-width: 1440px;
+
+}
+
+.container{
+    overflow: hidden;
+}
