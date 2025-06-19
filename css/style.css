@@ -419,3 +419,23 @@ header {
     transform: translateY(-6px);
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
+
+.faqs{
+    max-width: 770px !important;
+    
+}
+
+.accordion-button{
+    background-image: none !important;
+    content: "";
+}
+.accordion-item{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.accordion-item::after{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
