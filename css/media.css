@@ -19,7 +19,7 @@
         width: 100%;
         justify-content: center !important;
         padding: 5%;
-        /* max-width:768px; */
+
         z-index: 1000;
 
     }
@@ -112,11 +112,27 @@
 
 
     }
-    .faqs div:first-child br{
+
+    .faqs div:first-child br {
         display: none;
     }
-    .whylearn br{
-    display: inline-block;
-}
+
+    .whylearn br {
+        display: inline-block;
+    }
+
+    footer .container {
+
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    footer {
+        padding: 5px;
+        margin: 0px;
+
+
+    }
 
 }
