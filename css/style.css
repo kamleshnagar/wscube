@@ -425,10 +425,7 @@ header {
     
 }
 
-.accordion-button{
-    background-image: none !important;
-    content: "";
-}
+
 .accordion-item{
     margin: 10px;
     border: none;
@@ -438,4 +435,7 @@ header {
     margin: 10px;
     border: none;
     border-radius: 5px;
+}
+.whylearn br{
+    display: none;
 }

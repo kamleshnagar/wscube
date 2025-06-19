@@ -112,5 +112,11 @@
 
 
     }
+    .faqs div:first-child br{
+        display: none;
+    }
+    .whylearn br{
+    display: inline-block;
+}
 
 }
