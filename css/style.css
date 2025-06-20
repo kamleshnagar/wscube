@@ -475,7 +475,7 @@ footer .container p {
 }
 
  ul.custom-list {
-      list-style: none; /* Remove default bullets */
+      list-style: none;
       padding-left: 0;
     }
 
@@ -488,10 +488,20 @@ footer .container p {
     ul.custom-list li::before {
       content: "";
       background: url('/images/check.png') no-repeat center center;
-      background-size: 20px 20px; /* Set the desired size */
+      background-size: 20px 20px;
       width: 20px;
       height: 20px;
       position: absolute;
       left: 0;
-      top: 0.2em; /* Adjust vertically if needed */
+      top: 0.2em;
+    }
+
+    .carousel-inner h5,
+    .carousel-inner p{
+        text-shadow: 2px 2px 0 #333;
+    }
+    .carousel-indicators button{
+        background-color: rgb(37, 193, 255) !important;
+        border: 1px solid black  !important;
+
     }
