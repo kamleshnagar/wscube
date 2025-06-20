@@ -31,8 +31,10 @@ footer {
     color: #27AE60;
     cursor: pointer;
     background-color: white;
+    border-radius: 5px;
 
 }
+
 
 .wabtn i {
     color: #27AE60;
@@ -48,6 +50,9 @@ footer {
 .wabtn:hover {
     border: 1px solid #27AE60;
     cursor: pointer;
+    box-shadow: 2px 2px 10px #0a213475;
+    transform:scale(1.03)
+    
 
 }
 
@@ -315,10 +320,12 @@ header {
 
 .btn-1:hover {
     background: linear-gradient(90deg, #0072ff, #00c6ff);
+     transform: scale(1.04);
 }
 
 .btn-2:hover {
     background: linear-gradient(90deg, #0072ff, #00c6ff);
+     transform: scale(1.04);
 }
 
 
@@ -391,13 +398,17 @@ header {
 
 .btn:hover {
     background: linear-gradient(90deg, #0072ff, #00c6ff);
+    transform: scale(1.04);
 }
 
 .btn-5 {
     border: 0.5px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 50%;
-    /* min-height: 60px; */
+   
+}
+.btn-5:hover{
+     transform: scale(1.04);
 }
 
 .circle-2 {
