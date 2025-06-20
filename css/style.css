@@ -501,7 +501,9 @@ footer .container p {
         text-shadow: 2px 2px 0 #333;
     }
     .carousel-indicators button{
-        background-color: rgb(37, 193, 255) !important;
-        border: 1px solid black  !important;
+        background-color: rgb(19, 127, 170) !important;
+        border: 1px solid rgba(255, 255, 255, 0.5)  !important;
+        border-radius: 2px;
+        width: 6% !important;
 
     }
